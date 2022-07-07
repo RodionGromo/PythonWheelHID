@@ -8,7 +8,7 @@ GAMEPAD_REPORT_DESCRIPTOR = bytes((
     0x85, 0x04,                    #     REPORT_ID (4)
     0x05, 0x09,                    #     USAGE_PAGE (Button)
     0x19, 0x01,                    #     USAGE_MINIMUM (Button 1)
-    0x29, 0x08,                    #     USAGE_MAXIMUM (Button 8)
+    0x29, 0x07,                    #     USAGE_MAXIMUM (Button 7)
     0x15, 0x00,                    #     LOGICAL_MINIMUM (0)
     0x25, 0x01,                    #     LOGICAL_MAXIMUM (1)
     0x95, 0x08,                    #     REPORT_COUNT (8)
